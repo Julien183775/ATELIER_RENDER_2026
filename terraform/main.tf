@@ -1,4 +1,3 @@
-```hcl
 terraform {
   required_providers {
     render = {
