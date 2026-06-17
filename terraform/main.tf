@@ -31,6 +31,9 @@ resource "render_web_service" "flask_app" {
     ENV = {
       value = "production"
     }
+    DATABASE_URL = {
+      value = "postgresql://postgres_julien_user:XoLZLFT8fI7VAKOlms1RNKQjyw5NvxU8@dpg-d8pdd4j6sc1c73cl484g-a/postgres_julien"
+    }
   }
 }
 
