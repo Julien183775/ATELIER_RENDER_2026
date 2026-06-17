@@ -1,4 +1,3 @@
-```hcl
 variable "render_api_key" {
   description = "Render API key"
   type        = string
@@ -30,4 +29,3 @@ variable "database_url" {
   type        = string
   sensitive   = true
 }
-```
